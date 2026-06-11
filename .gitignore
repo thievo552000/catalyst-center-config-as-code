@@ -1,0 +1,28 @@
+.DS_Store
+*.log
+*.tmp
+*.bak
+
+# Local/runtime files
+.env
+.env.*
+artifacts/
+tmp/
+__pycache__/
+.pytest_cache/
+
+# Secrets and certificates
+certs/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*secret*
+*password*
+*token*
+MY_SETUP.md
+
+# Raw MCP/Ansible runner output should be filtered before commit.
+runner-artifacts/
+raw-artifacts/
