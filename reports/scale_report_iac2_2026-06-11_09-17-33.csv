@@ -1,0 +1,3 @@
+run_id,exported_at,cluster,flow,tool_name,status,iac_task_id,task_elapsed_seconds,module_elapsed_seconds,total_count,area_count,building_count,floor_count,device_count,size_bytes,latest_file,history_file
+2026-06-11_09-17-33,2026-06-11T16:17:33Z,IAC2,site,site_config,completed,37da489b-617e-47c2-8475-cb684573bbb1,213.191,155.29,172,41,38,93,,37697,data/iac2/latest/site_playbook_config.yml,data/iac2/history/2026-06-11_09-17-33/site_playbook_config.yml
+2026-06-11_09-17-33,2026-06-11T16:17:33Z,IAC2,inventory,inventory_config,completed,3575b5a4-e759-4f2c-abe6-8a20bce0190c,56.538,,28,,,,28,2035,data/iac2/latest/inventory_playbook_config.yml,data/iac2/history/2026-06-11_09-17-33/inventory_playbook_config.yml

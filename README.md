@@ -17,16 +17,16 @@ data/
         inventory_playbook_config.yml
         ...
 reports/
-  scale_report_<cluster_name>_<run_timestamp>.xlsx
+  scale_report_<cluster_name>_<run_timestamp>.csv
 ```
 
 ## Meaning
 
 - `data/<cluster_name>/latest/` is the newest complete or partial snapshot for quick review.
 - `data/<cluster_name>/history/<run_timestamp>/` is the immutable snapshot for one export run.
-- `reports/` stores one scale-test Excel report per export run.
+- `reports/` stores one scale-test CSV report per export run.
 
-Each generator flow writes one YAML file. During an export, each completed flow is checkpointed to both `latest/` and `history/<run_timestamp>/` before the next flow starts.
+Each generator flow writes one YAML file. During an export, each completed flow is checkpointed to both `latest/` and `history/<run_timestamp>/`, then appended as one row in the run CSV before the next flow starts.
 
 ## Safety
 
