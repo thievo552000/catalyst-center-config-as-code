@@ -1,0 +1,134 @@
+---
+config:
+- management_ip_address: 12.4.5.68
+  site_name_hierarchy: Global/US/California/San Jose/SJC20
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.218
+  site_name_hierarchy: Global/US/California/San Jose/SJC20
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.215
+  site_name_hierarchy: Global/US/California/San Jose/SJC4
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.206
+  site_name_hierarchy: Global/US/California/San Jose/SJC20
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.209
+  site_name_hierarchy: Global/US/California/San Jose/SJC10
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.210
+  site_name_hierarchy: Global/US/California/San Jose/SJC10
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 31.1.79.18
+  site_name_hierarchy: Global/US/California/San Jose/SJC21
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.216
+  site_name_hierarchy: Global/US/California/San Jose/SJC1
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.3.30.1
+  site_name_hierarchy: Global/US/California/San Jose/SJC15
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.245
+  site_name_hierarchy: Global/US/California/San Jose/SJC20
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.205
+  site_name_hierarchy: Global/US/California/San Jose/SJC10
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.101
+  site_name_hierarchy: Global/US/New York/New York City/PENN1
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.203
+  site_name_hierarchy: Global/US/California/San Jose/SJC10
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.207
+  site_name_hierarchy: Global/US/California/San Jose/SJC10
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.30
+  site_name_hierarchy: Global/US/California/San Jose/SJC21
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.204
+  site_name_hierarchy: Global/US/California/San Jose/SJC10
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.211
+  site_name_hierarchy: Global/US/California/San Jose/SJC10
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.214
+  site_name_hierarchy: Global/US/California/San Jose/SJC4
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.20
+  site_name_hierarchy: Global/US/California/San Jose/SJC24
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.12.12.33
+  site_name_hierarchy: Global/US/California/San Jose/SJC22
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 31.1.39.11
+  site_name_hierarchy: Global/US/California/San Jose/SJC4
+  provisioning: true
+  force_provisioning: false
+- management_ip_address: 12.11.201.227
+  site_name_hierarchy: Global/US/California/San Jose/SJC20
+  provisioning: true
+  force_provisioning: false
+  primary_managed_ap_locations:
+  - Global/US/California/San Jose/SJC20
+  - Global/US/California/San Jose/SJC20/SJC20-1
+  - Global/US/California/San Jose/SJC20/SJC20-2
+  - Global/US/California/San Jose/SJC20/SJC20-3
+  - Global/US/California/San Jose/SJC20/SJC20-4
+  - Global/US/California/San Jose/SJC20/SJC20-5
+  secondary_managed_ap_locations: []
+  dynamic_interfaces:
+  - interface_name: Vlan1001
+    vlan_id: 1001
+    interface_ip_address: 12.11.201.227
+    interface_gateway: 12.11.201.0
+  skip_ap_provision: false
+- management_ip_address: 12.5.0.127
+  site_name_hierarchy: Global/US/California/San Jose/SJC10
+  provisioning: true
+  force_provisioning: false
+  primary_managed_ap_locations:
+  - Global/US/California/San Jose/SJC23/SJC23-2
+  - Global/US/California/San Jose/SJC23/SJC23-3
+  secondary_managed_ap_locations: []
+  dynamic_interfaces:
+  - interface_name: Vlan100
+    vlan_id: 100
+    interface_ip_address: 12.5.0.127
+    interface_gateway: 12.5.0.0
+  - interface_name: Vlan400
+    vlan_id: 400
+    interface_ip_address: 31.251.0.2
+    interface_gateway: 31.251.0.0
+  skip_ap_provision: false
+- management_ip_address: 12.11.202.3
+  site_name_hierarchy: Global/US/California/San Jose/SJC10
+  provisioning: true
+  force_provisioning: false
+  primary_managed_ap_locations:
+  - Global/US/California/San Jose/SJC10
+  - Global/US/California/San Jose/SJC10/SJC10-1
+  - Global/US/California/San Jose/SJC10/SJC10-2
+  - Global/US/California/San Jose/SJC10/SJC10-3
+  - Global/US/California/San Jose/SJC10/SJC10-4
+  secondary_managed_ap_locations: []
+  skip_ap_provision: false
